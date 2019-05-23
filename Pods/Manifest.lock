@@ -1,0 +1,16 @@
+PODS:
+  - SFHFKeychainUtils (1.0.0)
+
+DEPENDENCIES:
+  - SFHFKeychainUtils (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SFHFKeychainUtils
+
+SPEC CHECKSUMS:
+  SFHFKeychainUtils: a4e064aedb7a5ada3d5219152d45f53cebc16507
+
+PODFILE CHECKSUM: 0428e78b14d68a335eb31e0ef335c282a05a5237
+
+COCOAPODS: 1.6.2

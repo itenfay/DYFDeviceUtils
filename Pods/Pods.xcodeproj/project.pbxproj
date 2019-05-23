@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1371DE8F52337C8BB237A02A7DDC6A49 /* SFHFKeychainUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603422414A20222D5D7ED02648B9591 /* SFHFKeychainUtils-dummy.m */; };
+		8DD9B55BEDC16E89A09C22F23BCEB6EF /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01D93DD9E02A898E384FD2762104AB /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6CF6936D8AC55F0E64042E9F3401960 /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6251594FB36FDE91BC89255C3B18AAE4 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8B6C73FE1F4AA5E1612E43E4D2CC860 /* Pods-DYFDeviceUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CC4D0570F16D2922CFF352CBEA00F /* Pods-DYFDeviceUtils-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF6BC7005DF419BC73AF359158AF3C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56CAED4C624985FBD0ACF19EA55717A2;
+			remoteInfo = SFHFKeychainUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12AE84392A2E22D9C15D8F6B321AE019 /* Pods-DYFDeviceUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYFDeviceUtils.release.xcconfig"; sourceTree = "<group>"; };
+		148853A54F67E89C968D7B4F61408ECB /* Pods-DYFDeviceUtils-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYFDeviceUtils-acknowledgements.plist"; sourceTree = "<group>"; };
+		2603422414A20222D5D7ED02648B9591 /* SFHFKeychainUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFHFKeychainUtils-dummy.m"; sourceTree = "<group>"; };
+		3CDA6285661AF5E5CC40E61C3D7E7905 /* SFHFKeychainUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFHFKeychainUtils-prefix.pch"; sourceTree = "<group>"; };
+		4DC76BF4362091A78EA6998748C3E4B4 /* SFHFKeychainUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFHFKeychainUtils.xcconfig; sourceTree = "<group>"; };
+		58C8CAFE9D59C191DDFF034A16C045EC /* libSFHFKeychainUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSFHFKeychainUtils.a; path = libSFHFKeychainUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6251594FB36FDE91BC89255C3B18AAE4 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = SFHFKeychainUtils/Classes/SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		67A181A96F17D95A8EEBF75929D6CC6F /* Pods-DYFDeviceUtils-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYFDeviceUtils-acknowledgements.markdown"; sourceTree = "<group>"; };
+		967B44747F1FE394D9B6F152FD477DEC /* libPods-DYFDeviceUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DYFDeviceUtils.a"; path = "libPods-DYFDeviceUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF7CC4D0570F16D2922CFF352CBEA00F /* Pods-DYFDeviceUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYFDeviceUtils-dummy.m"; sourceTree = "<group>"; };
+		D24C20F7F926397C6CA1FCEC2A8E2295 /* Pods-DYFDeviceUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYFDeviceUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		DC01D93DD9E02A898E384FD2762104AB /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFHFKeychainUtils.m; path = SFHFKeychainUtils/Classes/SFHFKeychainUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC206506F1E198A754CFBFABA87D27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B77A8CA7BB08840C2DC710B20B01AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024E4D06D788637B95ABD5ACE5C69E0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D2E5B086CF06D426E0732256807E7B4 /* SFHFKeychainUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		204049E642B1DA61D229AC0BCF931A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967B44747F1FE394D9B6F152FD477DEC /* libPods-DYFDeviceUtils.a */,
+				58C8CAFE9D59C191DDFF034A16C045EC /* libSFHFKeychainUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F251B7A85586B18BE8A46467EC01EE9 /* Pods-DYFDeviceUtils */ = {
+			isa = PBXGroup;
+			children = (
+				67A181A96F17D95A8EEBF75929D6CC6F /* Pods-DYFDeviceUtils-acknowledgements.markdown */,
+				148853A54F67E89C968D7B4F61408ECB /* Pods-DYFDeviceUtils-acknowledgements.plist */,
+				BF7CC4D0570F16D2922CFF352CBEA00F /* Pods-DYFDeviceUtils-dummy.m */,
+				D24C20F7F926397C6CA1FCEC2A8E2295 /* Pods-DYFDeviceUtils.debug.xcconfig */,
+				12AE84392A2E22D9C15D8F6B321AE019 /* Pods-DYFDeviceUtils.release.xcconfig */,
+			);
+			name = "Pods-DYFDeviceUtils";
+			path = "Target Support Files/Pods-DYFDeviceUtils";
+			sourceTree = "<group>";
+		};
+		6D2E5B086CF06D426E0732256807E7B4 /* SFHFKeychainUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6251594FB36FDE91BC89255C3B18AAE4 /* SFHFKeychainUtils.h */,
+				DC01D93DD9E02A898E384FD2762104AB /* SFHFKeychainUtils.m */,
+				B453510E48682F84D00994534B5312E9 /* Support Files */,
+			);
+			name = SFHFKeychainUtils;
+			path = SFHFKeychainUtils;
+			sourceTree = "<group>";
+		};
+		B0AE6CF5BED98E3673F48E73F2CCB1B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F251B7A85586B18BE8A46467EC01EE9 /* Pods-DYFDeviceUtils */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B453510E48682F84D00994534B5312E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC76BF4362091A78EA6998748C3E4B4 /* SFHFKeychainUtils.xcconfig */,
+				2603422414A20222D5D7ED02648B9591 /* SFHFKeychainUtils-dummy.m */,
+				3CDA6285661AF5E5CC40E61C3D7E7905 /* SFHFKeychainUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SFHFKeychainUtils";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				024E4D06D788637B95ABD5ACE5C69E0F /* Pods */,
+				204049E642B1DA61D229AC0BCF931A5F /* Products */,
+				B0AE6CF5BED98E3673F48E73F2CCB1B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C35250EC02F23B4C3E4F6CFDC2555932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CF6936D8AC55F0E64042E9F3401960 /* SFHFKeychainUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85AC001B9E01228C5A0D4F324CAAA5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56CAED4C624985FBD0ACF19EA55717A2 /* SFHFKeychainUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CDDA0BFC819A5753618C09FE0FD548 /* Build configuration list for PBXNativeTarget "SFHFKeychainUtils" */;
+			buildPhases = (
+				C35250EC02F23B4C3E4F6CFDC2555932 /* Headers */,
+				7F185203EA64E41A942C8D7A556E8BFB /* Sources */,
+				8DC206506F1E198A754CFBFABA87D27D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFHFKeychainUtils;
+			productName = SFHFKeychainUtils;
+			productReference = 58C8CAFE9D59C191DDFF034A16C045EC /* libSFHFKeychainUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6FC4AA658844F5A418CEB046DF94D3F2 /* Pods-DYFDeviceUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E3F41A4B2900C45E402C3662AF0B7D /* Build configuration list for PBXNativeTarget "Pods-DYFDeviceUtils" */;
+			buildPhases = (
+				C85AC001B9E01228C5A0D4F324CAAA5C /* Headers */,
+				52440C81607A784BA9A0F041EB80FC96 /* Sources */,
+				97B77A8CA7BB08840C2DC710B20B01AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC0C3EFB3EF8582210D41099B6A26D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYFDeviceUtils";
+			productName = "Pods-DYFDeviceUtils";
+			productReference = 967B44747F1FE394D9B6F152FD477DEC /* libPods-DYFDeviceUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 204049E642B1DA61D229AC0BCF931A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FC4AA658844F5A418CEB046DF94D3F2 /* Pods-DYFDeviceUtils */,
+				56CAED4C624985FBD0ACF19EA55717A2 /* SFHFKeychainUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52440C81607A784BA9A0F041EB80FC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B6C73FE1F4AA5E1612E43E4D2CC860 /* Pods-DYFDeviceUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F185203EA64E41A942C8D7A556E8BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1371DE8F52337C8BB237A02A7DDC6A49 /* SFHFKeychainUtils-dummy.m in Sources */,
+				8DD9B55BEDC16E89A09C22F23BCEB6EF /* SFHFKeychainUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CC0C3EFB3EF8582210D41099B6A26D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFHFKeychainUtils;
+			target = 56CAED4C624985FBD0ACF19EA55717A2 /* SFHFKeychainUtils */;
+			targetProxy = AF6BC7005DF419BC73AF359158AF3C4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0A5A73B68F219A046741D9FE8157D3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC76BF4362091A78EA6998748C3E4B4 /* SFHFKeychainUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SFHFKeychainUtils;
+				PRODUCT_NAME = SFHFKeychainUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5284198699EC0396B6FCF2BC46AC5565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AE84392A2E22D9C15D8F6B321AE019 /* Pods-DYFDeviceUtils.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5320CB6E6A07B87C29CA290296A5A405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24C20F7F926397C6CA1FCEC2A8E2295 /* Pods-DYFDeviceUtils.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECE7F2F082D9C1CF6C9B58597F4466C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC76BF4362091A78EA6998748C3E4B4 /* SFHFKeychainUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SFHFKeychainUtils;
+				PRODUCT_NAME = SFHFKeychainUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08CDDA0BFC819A5753618C09FE0FD548 /* Build configuration list for PBXNativeTarget "SFHFKeychainUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5A73B68F219A046741D9FE8157D3B0 /* Debug */,
+				ECE7F2F082D9C1CF6C9B58597F4466C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E3F41A4B2900C45E402C3662AF0B7D /* Build configuration list for PBXNativeTarget "Pods-DYFDeviceUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5320CB6E6A07B87C29CA290296A5A405 /* Debug */,
+				5284198699EC0396B6FCF2BC46AC5565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
