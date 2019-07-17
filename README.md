@@ -13,7 +13,6 @@ A small utility tool for getting the basic information about iOS device.
 
 ## Logs
 
-- Console Logs
 ```
 DYFDeviceUtils[3706:666709] device identifier: DB5D6298-73C9-459E-B279-93CF0E97866C
 DYFDeviceUtils[3706:666709] device name: Hanson lee
