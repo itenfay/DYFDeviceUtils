@@ -27,7 +27,7 @@
                                     <constraint firstAttribute="width" constant="100" id="JKg-Du-d45"/>
                                     <constraint firstAttribute="height" constant="40" id="xMd-uC-6rM"/>
                                 </constraints>
-                                <state key="normal" title="testeg"/>
+                                <state key="normal" title="Call Method"/>
                                 <connections>
                                     <action selector="testAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pxs-7C-rxc"/>
                                 </connections>

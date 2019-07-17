@@ -1,8 +1,37 @@
-# DYFDeviceUtils
+[如果你觉得能帮助到你，请给一颗小星星。谢谢！(If you think it can help you, please give it a star. Thanks!)](https://github.com/dgynfi/DYFDeviceUtils)
+
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
+
+## 技术交流群(群号:155353383) 
+
+欢迎加入技术交流群，一起探讨技术问题。<br />
+![](https://github.com/dgynfi/DYFDeviceUtils/raw/master/images/qq155353383.jpg)
+
+## DYFDeviceUtils
 
 A small utility tool for getting the basic information about iOS device.
 
-# Usage
+## Logs
+
+- Console Logs
+```
+DYFDeviceUtils[3706:666709] device identifier: DB5D6298-73C9-459E-B279-93CF0E97866C
+DYFDeviceUtils[3706:666709] device name: Hanson lee
+DYFDeviceUtils[3706:666709] ad tracking enabled: 0
+DYFDeviceUtils[3706:666709] idfa: CF0E9786-9EA6-1A8C-D342-C90E26C889A0
+DYFDeviceUtils[3706:666709] idfv: DB5D6298-73C9-459E-B279-93CF0E97866C
+DYFDeviceUtils[3706:666709] hardware model: D21AP
+DYFDeviceUtils[3706:666709] hardware machine: iPhone10,2
+DYFDeviceUtils[3706:666709] country code: CN
+DYFDeviceUtils[3706:666709] preferred language: zh-Hans
+DYFDeviceUtils[3706:666709] system version: 12.3.1
+DYFDeviceUtils[3706:666709] user interface idiom: 0
+DYFDeviceUtils[3706:666709] battery state.: 0
+DYFDeviceUtils[3706:666709] battery level: -1.00
+DYFDeviceUtils[3706:666709] multitasking supported: 1
+```
+
+## Usage
 
 1. Depends on SFHFKeychainUtils.
 ```
@@ -25,7 +54,7 @@ pod 'SFHFKeychainUtils', '~> 1.0.0'
 #endif
 ```
 
-4. Gets and print the basic information.
+4. Get and print the basic information.
 ```
 // Gets device identifier.
 NSString *deviceID = DYFDeviceUtils.getUUID;

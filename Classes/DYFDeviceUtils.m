@@ -30,12 +30,11 @@
 #import <sys/sysctl.h>
 
 // Key
-static NSString *const mUsername    = @"myapp.uuid";
-static NSString *const mServiceName = @"myapp.uuid.svc";
-
+static NSString *const _mUsername    = @"myapp.uuid";
+static NSString *const _mServiceName = @"myapp.uuid.svc";
 // Idetifier
-static const char *hw_model   = "hw.model";
-static const char *hw_machine = "hw.machine";
+static const char *_hw_model         = "hw.model";
+static const char *_hw_machine       = "hw.machine";
 
 CG_INLINE NSString *DYFGetSystemHardwareByName(const char *typeSpecifier) {
     size_t size;
@@ -91,12 +90,12 @@ CG_INLINE NSString *DYFAdvertisingIdentifierUUIDString() {
 
 + (NSString *)getUUID {
 #if DYF_DELETE_KEYC_ITEM
-    [self deleteItemForUsername:mUsername serviceName:mServiceName]; return nil;
+    [self deleteItemForUsername:_mUsername serviceName:_mServiceName]; return nil;
 #else
-    NSString *identifier = [SFHFKeychainUtils getPasswordForUsernameV2:mUsername andServiceName:mServiceName error:nil];
+    NSString *identifier = [SFHFKeychainUtils getPasswordForUsernameV2:_mUsername andServiceName:_mServiceName error:nil];
     if (!identifier) {
         identifier = [self generateUUID];
-        [SFHFKeychainUtils storeUsername:mUsername andPassword:identifier forServiceName:mServiceName updateExisting:YES error:nil];
+        [SFHFKeychainUtils storeUsername:_mUsername andPassword:identifier forServiceName:_mServiceName updateExisting:YES error:nil];
     }
     return identifier;
 #endif
@@ -111,11 +110,11 @@ CG_INLINE NSString *DYFAdvertisingIdentifierUUIDString() {
 }
 
 + (NSString *)getModel {
-    return DYFGetSystemHardwareByName(hw_model);
+    return DYFGetSystemHardwareByName(_hw_model);
 }
 
 + (NSString *)getMachine {
-    return DYFGetSystemHardwareByName(hw_machine);
+    return DYFGetSystemHardwareByName(_hw_machine);
 }
 
 + (NSString *)getCountryCode {
