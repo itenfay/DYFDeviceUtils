@@ -4,7 +4,7 @@
 
 ## DYFDeviceUtils
 
-A small utility tool for getting the basic information about iOS device.
+&emsp; A small utility tool for getting the basic information about iOS device.
 
 ## 技术交流群(群号:155353383) 
 
