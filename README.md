@@ -2,42 +2,28 @@
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
-## 技术交流群(群号:155353383) 
-
-欢迎加入技术交流群，一起探讨技术问题。<br />
-![](https://github.com/dgynfi/DYFDeviceUtils/raw/master/images/qq155353383.jpg)
-
 ## DYFDeviceUtils
 
 A small utility tool for getting the basic information about iOS device.
 
-## Logs
+## 技术交流群(群号:155353383) 
 
-```
-DYFDeviceUtils[3706:666709] device identifier: DB5D6298-73C9-459E-B279-93CF0E97866C
-DYFDeviceUtils[3706:666709] device name: Hanson lee
-DYFDeviceUtils[3706:666709] ad tracking enabled: 0
-DYFDeviceUtils[3706:666709] idfa: CF0E9786-9EA6-1A8C-D342-C90E26C889A0
-DYFDeviceUtils[3706:666709] idfv: DB5D6298-73C9-459E-B279-93CF0E97866C
-DYFDeviceUtils[3706:666709] hardware model: D21AP
-DYFDeviceUtils[3706:666709] hardware machine: iPhone10,2
-DYFDeviceUtils[3706:666709] country code: CN
-DYFDeviceUtils[3706:666709] preferred language: zh-Hans
-DYFDeviceUtils[3706:666709] system version: 12.3.1
-DYFDeviceUtils[3706:666709] user interface idiom: 0
-DYFDeviceUtils[3706:666709] battery state.: 0
-DYFDeviceUtils[3706:666709] battery level: -1.00
-DYFDeviceUtils[3706:666709] multitasking supported: 1
-```
+- 欢迎加入技术交流群，一起探讨技术问题。
+
+<div align=left>
+&emsp; <img src="https://github.com/dgynfi/DYFDeviceUtils/raw/master/images/qq155353383.jpg" width="20%" />
+<div />
 
 ## Usage
 
 1. Depends on SFHFKeychainUtils.
+
 ```
 pod 'SFHFKeychainUtils', '~> 1.0.0'
 ```
 
 2. If you join up advertising tracking, set DYF_IDFA_ALLOWED to 1.
+
 ```
 // Allows idfa. Default 0.
 #ifndef DYF_IDFA_ALLOWED
@@ -46,6 +32,7 @@ pod 'SFHFKeychainUtils', '~> 1.0.0'
 ```
 
 3. If you delete the item of keychain for device identifier, set DYF_DELETE_KEYC_ITEM to 1.
+
 ```
 // Deletes the item of keychain for device identifier. Default 0.
 #ifndef DYF_DELETE_KEYC_ITEM
@@ -54,6 +41,7 @@ pod 'SFHFKeychainUtils', '~> 1.0.0'
 ```
 
 4. Get and print the basic information.
+
 ```
 // Gets device identifier.
 NSString *deviceID = DYFDeviceUtils.getUUID;
@@ -114,4 +102,23 @@ NSLog(@"battery level: %.2f", batteryLevel);
 // Whether support multitasking or not.
 BOOL multitaskingSupported = DYFDeviceUtils.isMultitaskingSupported;
 NSLog(@"multitasking supported: %d", multitaskingSupported);
+```
+
+## Logs
+
+```
+DYFDeviceUtils[3706:666709] device identifier: DB5D6298-73C9-459E-B279-93CF0E97866C
+DYFDeviceUtils[3706:666709] device name: Hanson lee
+DYFDeviceUtils[3706:666709] ad tracking enabled: 0
+DYFDeviceUtils[3706:666709] idfa: CF0E9786-9EA6-1A8C-D342-C90E26C889A0
+DYFDeviceUtils[3706:666709] idfv: DB5D6298-73C9-459E-B279-93CF0E97866C
+DYFDeviceUtils[3706:666709] hardware model: D21AP
+DYFDeviceUtils[3706:666709] hardware machine: iPhone10,2
+DYFDeviceUtils[3706:666709] country code: CN
+DYFDeviceUtils[3706:666709] preferred language: zh-Hans
+DYFDeviceUtils[3706:666709] system version: 12.3.1
+DYFDeviceUtils[3706:666709] user interface idiom: 0
+DYFDeviceUtils[3706:666709] battery state.: 0
+DYFDeviceUtils[3706:666709] battery level: -1.00
+DYFDeviceUtils[3706:666709] multitasking supported: 1
 ```
