@@ -1,4 +1,4 @@
-[If this project can help you, please give it a star. Thanks!](https://github.com/dgynfi/DYFDeviceUtils)
+[If this project can help you, please give it a star. Thanks!](https://github.com/chenxing640/DYFDeviceUtils)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
@@ -9,7 +9,7 @@ A small utility tool for getting the basic information about iOS device.
 ## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/DYFDeviceUtils/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/DYFDeviceUtils/raw/master/images/g614799921.jpg" width="30%" />
 </div>
 
 ## Usage
